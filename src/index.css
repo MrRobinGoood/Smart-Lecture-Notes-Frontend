@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   background: #e8e9ea;
+}
+
+@font-face {
+  font-family: 'Times New Roman';
+  src: local('public/TimesNewRoman.ttf');
+}

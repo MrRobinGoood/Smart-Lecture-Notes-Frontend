@@ -1,0 +1,42 @@
+.container{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 0.96fr 2fr;
+  padding-top: 10px;
+  height: 90vh;
+}
+.item a{
+  font-size: 18px;
+  padding: 170px;
+}
+.changeContainer{
+  display: flex;
+  flex-direction: column;
+}
+.buttonChange{
+  margin-bottom: 20px;
+  min-width: 18vw;
+  height: 6vh;
+  background-color: #bcc6ce;
+  border: 3px solid #6e7272;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  opacity: 0.8;
+  user-select: none;
+  margin-left: 58.3rem;
+  font-size: 18px;
+}
+.buttonChange:hover {
+  opacity: 1
+}
+.textarea{
+  margin-right: 1.2rem;
+  min-width: fit-content;
+  min-height: 25rem;
+  font-size: 16px;
+  font-family: "Times New Roman";
+  resize: none;
+  padding: 5px;
+}

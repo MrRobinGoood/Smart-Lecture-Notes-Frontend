@@ -1,0 +1,18 @@
+.loader-wrapper {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+
+}
+.img {
+  width: 120px;
+  animation: spin .9s ease-in-out infinite;
+  color: #000000;
+  margin: 30vh 46vw;
+}
+
+@keyframes spin {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+

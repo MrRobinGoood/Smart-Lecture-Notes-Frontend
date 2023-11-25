@@ -1,0 +1,103 @@
+.dragDrop{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  flex-direction: column;
+  background-image: url("https://www.vippng.com/png/full/137-1378586_line-vector-png-vector-wavy-lines-png.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: montserrat, serif;
+}
+.dropArea{
+  width: 35vw;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 2px #348BD8 dashed;
+  border-radius: 20px;
+  background-color: #fafafa;
+  color: #bdbdbd;
+  font-family: montserrat, serif;
+}
+.dropAreaAfter{
+  width: 35vw;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 2px #ff0013 dashed;
+  border-radius: 20px;
+  background-color: #fafafa;
+  color: #bdbdbd;
+  font-family: montserrat, serif;
+}
+
+.loadButton{
+  background-color: #c4c8d3;
+  border: 3px solid #6e7272;
+  color: black;
+  min-width: 15vw;
+  height: 6vh;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 8px;
+  font-family: montserrat, serif;
+  opacity: 0.8;
+  user-select: none;
+  margin-top: 5vh;
+  align-self: center;
+}
+
+.loadButton:hover{
+  opacity: 1;
+}
+
+.em{
+  opacity: 0.2;
+  font-size: 20px;
+  font-family: montserrat, serif;
+}
+
+.DragInput{
+  display: none;
+  font-family: montserrat, serif;
+}
+
+.DragButton{
+  cursor: pointer;
+  padding: 0.25rem;
+  border: none;
+  font-family: montserrat, serif;
+  background-color: transparent;
+  width: 35vw;
+  height: 20vh;
+  color: #bdbdbd;
+  font-size: 25px;
+}
+
+.text{
+  margin: 10px;
+  font-size: 20px;
+  color: #676666;
+  padding: 15px;
+  font-family: montserrat, serif;
+}
+li {
+  list-style-type: circle;
+}
+
+.text1{
+  font-size: 20px;
+  color: #676666;
+}

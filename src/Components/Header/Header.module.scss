@@ -1,0 +1,50 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  height: 10vh;
+  background: #d2d8e0;
+  vertical-align: middle;
+  align-items: center;
+}
+.img{
+  height: 7vh;
+  width: auto;
+}
+.buttonBack{
+  min-width: 18vw;
+  height: 6vh;
+  background-color: #bcc6ce;
+  border: 3px solid #6e7272;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  opacity: 0.8;
+  user-select: none;
+  margin-left: 41rem;
+  font-size: 18px;
+}
+
+.buttonDownload{
+  min-width: 18vw;
+  height: 6vh;
+  background-color: #bcc6ce;
+  border: 3px solid #6e7272;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  opacity: 0.8;
+  user-select: none;
+  margin-left: 2rem;
+  font-size: 18px;
+}
+
+.buttonDownload:hover {
+  opacity: 1
+}
+
+.buttonBack:hover {
+  opacity: 1
+}
